@@ -4,10 +4,9 @@ function Nav(): JSX.Element {
   return (
     <>
       <Link to={"/"}>Home</Link>
-      <Link to={"/about-me"}>About Me</Link>
       <Link to={"/projects"}>Projects</Link>
-      <p>CV</p>
-      <p>Contact</p>
+      <Link to={"/about-me"}>About Me</Link>
+      <Link to={"/contact"}>Contact Me</Link>
     </>
   );
 }
