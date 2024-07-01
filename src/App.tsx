@@ -1,9 +1,19 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import Nav from "./components/Nav";
+import Projects from "./components/Projects";
 
 function App() {
   return (
     <>
-      <h1>Avril Hunter</h1>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+      <Footer />
     </>
   );
 }
