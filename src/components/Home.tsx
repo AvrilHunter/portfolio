@@ -3,11 +3,11 @@ import photo from "../assets/headshot.jpg";
 function Home() {
   return (
     <>
-      <h1>Avril Hunter</h1>
+      <h1 className="text-rose">Avril Hunter</h1>
       <img className="profilephoto" src={photo} alt="profile photo of Avril" />
-      <p>Junior Software Developer</p>
-      <p>Leeds, West Yorkshire</p>
-      <p>
+      <p className="bg-violet text-white">Junior Software Developer</p>
+      <p className="bg-amber text-violet">Leeds, West Yorkshire</p>
+      <p className="bg-rose text-white">
         Having always relished problem-solving and logical thinking tasks, I
         have pivoted my career from procurement to software development through
         completion of the Northcoders bootcamp. Applying my technical skills to
