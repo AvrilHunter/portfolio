@@ -30,10 +30,10 @@ function AboutMe() {
         max-height="220"
         src="https://www.youtube.com/embed/9qZlyDkUjIc?si=bc6zIiglhj88v184&amp;start=3666"
         title="YouTube video player"
-        frameborder="0"
+        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowFullScreen
       ></iframe>
       <h3 className="bg-orange text-black rounded-md p-1">Team highlights</h3>
       <iframe
@@ -41,10 +41,10 @@ function AboutMe() {
         max-height="200"
         src="https://www.youtube.com/embed/XIi2s2JYqME?si=v4Mv5NVnMhovbMyp"
         title="YouTube video player"
-        frameborder="0"
+        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowFullScreen
       ></iframe>
       <p>
         Aside from Ultimate Frisbee I love all sports including surfing,
