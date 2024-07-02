@@ -3,17 +3,19 @@ import ProjectCard from "./ProjectCard";
 
 function Projects(): JSX.Element {
   return (
-    <ul>
+    <ul className="md:flex md:flex-wrap">
       {projects.map((project) => {
         return (
-          <ProjectCard
-            title={project.title}
-            summary={project.summary}
-            skills={project.skills}
-            github={project.github}
-            demo={project.demo}
-            hostedSite={project.hostedSite}
-          />
+          <li className="basis-1/2 grow">
+            <ProjectCard
+              title={project.title}
+              summary={project.summary}
+              skills={project.skills}
+              github={project.github}
+              demo={project.demo}
+              hostedSite={project.hostedSite}
+            />
+          </li>
         );
       })}
     </ul>
