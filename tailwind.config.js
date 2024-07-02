@@ -2,9 +2,6 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    // container: {
-    //   center: true,
-    // },
     extend: {
       colors: {
         amber: "#FFBE0B",
@@ -13,7 +10,14 @@ export default {
         violet: "#8338EC",
         azure: "#3A86FF",
       },
+      fontFamily: { nanum: ["Nanum Gothic", "sans-serif"] },
     },
   },
   plugins: [],
 };
+
+// .nanum-gothic-regular {
+//   font-family: "Nanum Gothic", sans-serif;
+//   font-weight: 400;
+//   font-style: normal;
+// }
