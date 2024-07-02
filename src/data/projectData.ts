@@ -45,7 +45,16 @@ export const projects: Project[] = [
       "Styled using CSS with responsive design considerations for various screen sizes.",
       "User experience enhanced through optimistic rendering when appropriate.",
     ],
-    skills: ["JavaScript", "React", "React Router", "Vite", "Axios", "Netlify"],
+    skills: [
+      "JavaScript",
+      "React",
+      "React Router",
+      "Vanilla CSS",
+      "HTML",
+      "Vite",
+      "Axios",
+      "Netlify",
+    ],
   },
   {
     title: "Northcoders News API, Back End Project ",
