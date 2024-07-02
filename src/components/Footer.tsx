@@ -3,7 +3,7 @@ import linkedin from "../assets/linkedin.svg";
 
 function Footer() {
   return (
-    <footer className="flex justify-center p-3 gap-3">
+    <footer className="flex justify-center p-3 gap-3 bg-azure rounded-md">
       <a href={"https://github.com/AvrilHunter/"} target={"_blank"}>
         <img src={github} alt="github logo" width="30" height="40" />
       </a>
