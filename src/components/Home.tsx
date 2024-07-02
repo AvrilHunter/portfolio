@@ -2,22 +2,22 @@ import photo from "../assets/headshot.jpg";
 
 function Home() {
   return (
-    <main className="flex flex-col items-center gap-1">
-      <h1 className="text-4xl text-white rounded-md bg-rose px-2 w-full">
+    <main className="grid flex-col gap-1 md:grid-cols-2">
+      <h1 className="text-4xl text-white rounded-md bg-rose p-1 w-full md:align-self-end">
         Avril Hunter
       </h1>
-      <h2 className="text-2xl bg-violet text-white rounded-md px-2 w-full">
+      <h2 className="text-2xl bg-violet text-white rounded-md p-1 w-full">
         Junior Software Developer
       </h2>
-      <h3 className="text-xl bg-amber text-violet rounded-md px-2 w-full">
+      <h3 className="text-xl bg-amber text-violet rounded-md p-1 w-full">
         Leeds, West Yorkshire
       </h3>
       <img
-        className="max-w-[200px] rounded-full px-2"
+        className="max-w-[200px] rounded-full p-1 justify-self-center"
         src={photo}
         alt="profile photo of Avril"
       />
-      <p className="text-left justify">
+      <p className="md:col-start-2 md:row-start-1 md:row-span-2 p-2">
         Having always relished problem-solving and logical thinking tasks, I
         have pivoted my career from procurement to software development through
         completion of the Northcoders bootcamp. Applying my technical skills to
