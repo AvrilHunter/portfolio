@@ -1,6 +1,4 @@
 import { Project } from "../data/projectData";
-import whatYouLookingApp from "../assets/WhatYouLookingApp.png";
-declare var require: any;
 
 function ProjectCard({
   title,
@@ -29,7 +27,7 @@ function ProjectCard({
           </>
         );
       })}
-      {image ? <img src={whatYouLookingApp} /> : null}
+      {image ? <img src={image} /> : null}
       <h3 className="text-xl bg-amber text-black rounded-md p-1 text-center">
         Skills
       </h3>
