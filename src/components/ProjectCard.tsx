@@ -29,7 +29,7 @@ function ProjectCard({
           </>
         );
       })}
-      {image ? <img src={whatYouLookingApp} /> : null}
+      {image ? <img src={image} /> : null}
       <h3 className="text-xl bg-amber text-black rounded-md p-1 text-center">
         Skills
       </h3>

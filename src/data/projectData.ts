@@ -41,7 +41,7 @@ export const projects: Project[] = [
       " I also enjoyed the use of TypeScript to learn a new language and building on my JavaScript knowledge whilst making the code robust.",
       " This was a great experience working as part of a group on a technical project and provided invaluable experience with communication and version control through git practices. In particular dealing with merge requests and branches.",
     ],
-    //image: require("../assets/WhatYouLookingApp.png"),
+    image: require("../assets/WhatYouLookingApp.png"),
     skills: ["TypeScript", "React Native", "ViroReact", "Android Studio"],
   },
   {
