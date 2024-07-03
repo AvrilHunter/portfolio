@@ -1,7 +1,8 @@
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { PropsWithChildren } from "react";
 
-function ScrollToTop({ children }) {
+function ScrollToTop({ children }: PropsWithChildren) {
   const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
