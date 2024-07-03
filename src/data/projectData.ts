@@ -9,6 +9,15 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "Portfolio",
+    github: "https://github.com/AvrilHunter/portfolio",
+    summary: [
+      "Created my portfolio page to showcase the projects I have created. As I had a good grasp of vanilla CSS I have used this project to learn Tailwind CSS. I enjoyed developing for various screensizes to optimise the appearance.",
+      "Deployed with Vercel",
+    ],
+    skills: ["React", "Vercel", "HTML", "Tailwind CSS"],
+  },
+  {
     title: "Python Backend Project",
     github: "https://github.com/AvrilHunter/Python-SQLite",
     summary: [

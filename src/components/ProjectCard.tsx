@@ -9,8 +9,8 @@ function ProjectCard({
   hostedSite,
 }: Project) {
   return (
-    <li className="border-2 border-azure rounded-md p-2 m-2">
-      <h2 className="text-2xl bg-violet text-white rounded-md p-1 w-full">
+    <li className="p-2 md:m-4">
+      <h2 className="text-2xl bg-violet text-white rounded-md p-1 w-full text-center">
         {title}
       </h2>
       <ul>
@@ -32,7 +32,9 @@ function ProjectCard({
           Hosted Site
         </a>
       ) : null}
-      <h3 className="text-xl bg-orange text-black rounded-md p-1">Skills</h3>
+      <h3 className="text-xl bg-amber text-black rounded-md p-1  text-center">
+        Skills
+      </h3>
       <ul className="flex flex-wrap">
         {skills.map((skill) => {
           return (
