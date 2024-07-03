@@ -16,6 +16,7 @@ export const projects: Project[] = [
       "I really enjoyed learning React with Northcoders therefore to continue improving my knowledge I have created this portfolio page with React and TypeScript, built with Vite. As I have a good grasp of vanilla CSS I used Tailwind CSS for the styling of this website.",
       "The ability to tap into the breakpoints with Tailwind has made responsive design easy and efficient to create, for example the home page layout changes from flex to grid at 768px to improve the appearance.",
     ],
+    image: require("../assets/portfolio.png"),
     skills: ["React", "TypeScript", "HTML", "Tailwind CSS", "Vercel", "Vite"],
   },
   {
@@ -28,6 +29,7 @@ export const projects: Project[] = [
       "The application has error handling created and uses Pytest to test the util functions.",
       "I used Insomnia to check the responses for each endpoint however for my next project I would create a testing suite to ensure the endpoints were tested thoroughly. ",
     ],
+    image: require("../assets/pythonSql.png"),
     skills: ["Python", "Flask", "SQLite", "Insomnia", "Pytest"],
   },
   {
@@ -55,7 +57,7 @@ export const projects: Project[] = [
       "Accessibility was a key consideration with exploration of several tools including Lighthouse, Wave and axaDev Tools.",
       "I gained valuable experience with vanilla CSS and I used responsive design considerations for changing screen sizes. The use of optimistic rendering when appropriate enhanced user experience.",
     ],
-
+    image: require("../assets/nc-news.png"),
     skills: [
       "JavaScript",
       "React",
@@ -75,6 +77,7 @@ export const projects: Project[] = [
       "As this was built with test driven development using Jest, I have a thorough testing suite covering correct responses and checking potential errors with appropriate handling.",
       "The project provided valuable experience working with SQL requests and by the end of the project I utilised complex SQL queries and protected against SQL injection.",
     ],
+    image: require("../assets/be-nc-news.png"),
     skills: [
       "JavaScript",
       "PSQL",

@@ -5,25 +5,25 @@ function Nav(): JSX.Element {
     <nav className="flex justify-around gap-1 md:justify-end p-1">
       <Link
         to={"/"}
-        className="text-white bg-azure rounded-md p-3 text-center hover:bg-rose md:font-bold"
+        className="text-black bg-azure rounded-md p-3 text-center hover:bg-rose font-bold"
       >
         Home
       </Link>
       <Link
         to={"/projects"}
-        className="bg-amber text-black rounded-md p-3 text-center hover:bg-rose md:font-bold"
+        className="bg-amber text-black rounded-md p-3 text-center hover:bg-rose font-bold"
       >
         Projects
       </Link>
       <Link
         to={"/about-me"}
-        className="bg-orange text-black rounded-md p-3 text-center hover:bg-rose md:font-bold"
+        className="bg-orange text-black rounded-md p-3 text-center hover:bg-rose font-bold"
       >
         About
       </Link>
       <Link
         to={"/contact"}
-        className="bg-violet text-white rounded-md p-3 text-center hover:bg-rose md:font-bold"
+        className="bg-violet text-white rounded-md p-3 text-center hover:bg-rose font-bold"
       >
         Contact
       </Link>

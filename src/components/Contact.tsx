@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="flex flex-col">
+    <section className="flex flex-col">
       <h1 className="text-2xl text-white rounded-md bg-rose p-1 w-full">
         Contact Me
       </h1>
@@ -23,7 +23,7 @@ function Contact() {
       >
         Find my code on GitHub
       </a>
-    </div>
+    </section>
   );
 }
 

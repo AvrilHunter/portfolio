@@ -3,11 +3,8 @@ import ProjectCard from "./ProjectCard";
 
 function Projects(): JSX.Element {
   return (
-    <>
-      <h1 className="text-2xl bg-orange text-black rounded-md p-1 w-full text-center">
-        Projects
-      </h1>
-      <ul className="md:flex md:flex-wrap">
+    <article>
+      <ul className="flex flex-col">
         {projects.map((project) => {
           return (
             <li className="basis-1/2 grow" key={project.title}>
@@ -24,7 +21,7 @@ function Projects(): JSX.Element {
           );
         })}
       </ul>
-    </>
+    </article>
   );
 }
 

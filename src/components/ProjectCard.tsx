@@ -9,28 +9,37 @@ function ProjectCard({
   hostedSite,
   image,
 }: Project) {
-  console.log(image, "image");
   return (
     <section className="pt-1 flex flex-col m-1">
-      <h2 className="text-2xl bg-violet text-white rounded-md p-1 w-full text-center">
+      <h1 className="text-2xl bg-violet text-white rounded-md p-1 w-full text-center">
         {title}
-      </h2>
-      {summary.map((para, index) => {
-        return index === summary.length - 1 ? (
-          <>
-            <p>{para}</p>
-          </>
-        ) : (
-          <>
-            <p>{para}</p>
-            <br></br>
-          </>
-        );
-      })}
-      {image ? <img src={image} /> : null}
-      <h3 className="text-xl bg-amber text-black rounded-md p-1 text-center">
+      </h1>
+      <div className="grid md:grid-cols-2 p-2">
+        <div className="">
+          {summary.map((para, index) => {
+            return index === summary.length - 1 ? (
+              <>
+                <p>{para}</p>
+              </>
+            ) : (
+              <>
+                <p>{para}</p>
+                <br></br>
+              </>
+            );
+          })}
+        </div>
+        {image ? (
+          <img
+            src={image}
+            alt={title}
+            className="object-contain object-center p-2"
+          />
+        ) : null}
+      </div>
+      <h2 className="text-xl text-black rounded-md p-1 underline underline-offset-4">
         Skills
-      </h3>
+      </h2>
       <ul className="flex flex-wrap">
         {skills.map((skill) => {
           return (
@@ -43,7 +52,7 @@ function ProjectCard({
       {demo ? (
         <a
           href={demo}
-          className="text-white bg-azure p-1 rounded-md text-center mb-1"
+          className="text-black bg-azure p-1 rounded-md text-center mb-1"
         >
           Demo Video
         </a>
@@ -51,14 +60,14 @@ function ProjectCard({
       {hostedSite ? (
         <a
           href={hostedSite}
-          className="text-white bg-azure p-1 rounded-md text-center mb-1"
+          className="text-black bg-azure p-1 rounded-md text-center mb-1"
         >
           Hosted Site
         </a>
       ) : null}
       <a
         href={github}
-        className="text-white bg-azure p-1 rounded-md text-center"
+        className="text-black bg-azure p-1 rounded-md text-center"
       >
         Source Code
       </a>
