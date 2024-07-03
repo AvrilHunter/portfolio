@@ -5,5 +5,9 @@ import vitePluginRequire from "vite-plugin-require";
 // https://vitejs.dev/config/
 export default defineConfig({
   // eslint-disable-next-line @typescript-eslint/no-unsafe-call
-  plugins: [react(), vitePluginRequire.default()],
+  plugins: [
+    react(),
+    // @ts-ignore
+    vitePluginRequire.default(),
+  ],
 });
