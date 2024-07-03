@@ -1,6 +1,4 @@
 import { Project } from "../data/projectData";
-import whatYouLookingApp from "../assets/WhatYouLookingApp.png";
-declare var require: any;
 
 function ProjectCard({
   title,
