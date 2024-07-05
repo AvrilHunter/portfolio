@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import photo from "../assets/headshot.jpg";
 
 function Home() {
@@ -29,26 +28,7 @@ function Home() {
             career as a software developer.
           </p>
         </div>
-        <nav className="flex justify-around gap-1 md:justify-end p-1 md:hidden">
-          <Link
-            to={"/projects"}
-            className="bg-amber text-black rounded-md p-3 text-center hover:bg-rose md:font-bold"
-          >
-            Projects
-          </Link>
-          <Link
-            to={"/about-me"}
-            className="bg-orange text-black rounded-md p-3 text-center hover:bg-rose md:font-bold"
-          >
-            About
-          </Link>
-          <Link
-            to={"/contact"}
-            className="bg-violet text-white rounded-md p-3 text-center hover:bg-rose md:font-bold"
-          >
-            Contact
-          </Link>
-        </nav>
+        <nav className="flex justify-around gap-1 md:justify-end p-1 md:hidden"></nav>
       </main>
     </>
   );
