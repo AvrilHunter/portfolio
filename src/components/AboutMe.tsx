@@ -8,20 +8,20 @@ function AboutMe() {
       </h1>
       <p>
         Since completing the Northcoders bootcamp I have been continuing my
-        learning journey with many practice kata's and projects exploring new
+        learning journey with many practice katas and projects exploring new
         technology.
       </p>
       <br></br>
       <p>
-        I am enjoying learning new languages such as python and exploring more
-        detail on existing topics such as animations with CSS.
+        It has been very satisfying to learning new languages such as python and
+        exploring more detail on existing topics such as animations with CSS.
       </p>
       <br></br>
       <p>
-        I enjoy the logical technical nature of backend projects and the ability
-        to make interactive userfriendly appealing apps with front end,
-        therefore I am actively looking for opportunities within either area or
-        full stack.
+        I enjoy the logical and technical nature of backend projects and find
+        the ability to make front end interactive, user friendly apps extremely
+        rewarding. Therefore I am actively looking for opportunities within
+        backend front end or full stack.
       </p>
       <h2 className="text-xl bg-amber text-black rounded-md p-1">Hobbies</h2>
       <p>
@@ -30,13 +30,13 @@ function AboutMe() {
       </p>
       <br></br>
       <p>
-        I have competed for Great Britian at several European and World
-        Championships since 2016; the highlight of my playing career was winning
-        Silver at European Championships 2023 competing with Great Britain
-        Women.
+        I have competed for Great Britain at several European and World Ultimate
+        Frisbee Championships since 2016; the highlight of my playing career was
+        winning Silver at European Championships 2023 competing with Great
+        Britain Women.
       </p>
       <br></br>
-      <p>I am currently training for World Championships 2024.</p>
+      <p>Currently I'm training for World Championships 2024.</p>
       <br></br>
       <p>
         The final from 2023 is linked here and a highlight play video of our

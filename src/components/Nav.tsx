@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Nav(): JSX.Element {
   return (
-    <nav className="flex justify-around gap-1 md:justify-end p-1">
+    <nav className="bg-white flex justify-around gap-1 md:justify-end p-1 sticky top-0">
       <Link
         to={"/"}
         className="text-black bg-azure rounded-md p-3 text-center hover:bg-rose font-bold"

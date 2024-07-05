@@ -2,6 +2,10 @@ import { projects } from "../data/projectData";
 import ProjectCard from "./ProjectCard";
 
 function Projects(): JSX.Element {
+  const handleClick: VoidFunction = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <article>
       <ul className="flex flex-col">
@@ -21,6 +25,12 @@ function Projects(): JSX.Element {
           );
         })}
       </ul>
+      <button
+        onClick={handleClick}
+        className="font-extrabold text-orange border-solid border-4 border-orange p-1 rounded-md text-center w-full m-2"
+      >
+        Scroll to top
+      </button>
     </article>
   );
 }

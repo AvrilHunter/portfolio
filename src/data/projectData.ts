@@ -24,7 +24,7 @@ export const projects: Project[] = [
     github: "https://github.com/AvrilHunter/Python-SQLite",
     summary: [
       "In order to continue learning new skills after the boot camp I challenged myself to create a backend with Python. This was demanding to learn a new language and get to grips with the framework Flask.",
-      "I approached the project by completing a tutorial in Python and then working through kata's in order to practice using the syntax in particular learning about indentation, variables and functions.",
+      "I approached the project by completing a tutorial in Python and then working through katas in order to practice using the syntax in particular learning about indentation, variables and functions.",
       "Through reading docs and tutorials I then created a project using the lightweight framework Flask. I created and seeded a SQLite database and then created endpoints which allowed GET, PATCH, POST and DELETE operations.",
       "The application has error handling created and uses Pytest to test the util functions.",
       "I used Insomnia to check the responses for each endpoint however for my next project I would create a testing suite to ensure the endpoints were tested thoroughly. ",

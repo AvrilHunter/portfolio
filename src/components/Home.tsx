@@ -25,8 +25,8 @@ function Home() {
             technical skills to projects and the joy of creating a solution,
             continues to excite me to pursue an inspiring and challenging career
             in tech. My background in procurement has equipped me with a unique
-            perspective and a diverse skill set that will be invaluable in my
-            new career as a software developer.
+            perspective and a diverse skill set that will be valuable in my new
+            career as a software developer.
           </p>
         </div>
         <nav className="flex justify-around gap-1 md:justify-end p-1 md:hidden">
