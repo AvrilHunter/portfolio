@@ -11,13 +11,15 @@ export default {
         azure: "#3A86FF",
       },
       fontFamily: { nanum: ["Nanum Gothic", "sans-serif"] },
+      keyframes: {
+        typing: {
+          "0%": { width: "0", "padding-left":"100%" },
+          "100%": { width: "100%" },
+        },
+      },
+      animation: { typing: "typing 1s steps(20, end) 0s 1 normal forwards" },
     },
   },
   plugins: [],
 };
 
-// .nanum-gothic-regular {
-//   font-family: "Nanum Gothic", sans-serif;
-//   font-weight: 400;
-//   font-style: normal;
-// }
