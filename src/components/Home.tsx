@@ -5,9 +5,11 @@ function Home() {
     <>
       <main>
         <div className="grid flex-col gap-1 md:grid-cols-2 mb-2">
-          <h1 className="font-bold text-4xl text-white rounded-md bg-rose p-1 md:pt-5 w-full text-center animate-wiggle">
-            Avril Hunter
-          </h1>
+          <div className="font-bold text-4xl text-white rounded-md bg-rose p-1 md:pt-5 w-full">
+            <h1 className="text-center overflow-hidden text-nowrap p-50% animate-typing">
+              Avril Hunter
+            </h1>
+          </div>
           <h2 className=" font-bold text-2xl bg-violet text-white rounded-md w-full text-center p-1 md:pt-7">
             Junior Software Developer
           </h2>
