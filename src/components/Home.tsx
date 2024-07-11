@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import photo from "../assets/headshot.jpg";
 
 function Home() {
@@ -29,6 +30,14 @@ function Home() {
             perspective and a diverse skill set that will be valuable in my new
             career as a software developer.
           </p>
+        </div>
+        <div className="md:hidden flex justify-center">
+          <Link
+            to={"/projects"}
+            className="bg-amber text-black rounded-md p-3 text-center hover:bg-rose font-bold"
+          >
+            Projects
+          </Link>
         </div>
         <nav className="flex justify-around gap-1 md:justify-end p-1 md:hidden"></nav>
       </main>
