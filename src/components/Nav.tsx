@@ -3,7 +3,7 @@ import Menu from "./Menu";
 
 function Nav(): JSX.Element {
   return (
-    <nav>
+    <nav className="sticky top-0">
       <div className="hidden bg-white md:flex justify-around gap-1 md:justify-end p-1 sticky top-0">
         <Link
           to={"/"}

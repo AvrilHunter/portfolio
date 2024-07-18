@@ -7,7 +7,6 @@ function Menu() {
   const handleClick = () => {
     setIsOpen(!openNav);
   };
-  console.log(openNav, "open Nav");
 
   return (
     <section className="flex m-2 justify-end">
