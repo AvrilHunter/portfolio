@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import photo from "../assets/headshot.jpg";
+import ProjectShowcase from "./ProjectShowcase";
 
 function Home() {
   return (
@@ -39,7 +40,8 @@ function Home() {
             Projects
           </Link>
         </div>
-        <nav className="flex justify-around gap-1 md:justify-end p-1 md:hidden"></nav>
+        {/* <nav className="flex justify-around gap-1 md:justify-end p-1 md:hidden"></nav> */}
+        <ProjectShowcase />
       </main>
     </>
   );
