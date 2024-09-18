@@ -3,7 +3,7 @@ import { projects } from "../data/projectData";
 function ProjectShowcase() {
   return (
     //   slider
-    <div className="overflow-hidden w-96 m-auto p-2">
+    <div className="overflow-hidden m-auto p-2">
       {/* slides */}
 
       <div className="flex overflow-x-auto snap-x">
