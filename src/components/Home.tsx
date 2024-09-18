@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import photo from "../assets/headshot.jpg";
-import ProjectShowcase from "./ProjectShowcase";
 
 function Home() {
   return (
