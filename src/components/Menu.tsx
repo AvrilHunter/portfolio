@@ -22,7 +22,7 @@ function Menu() {
       <div className={openNav ? "visible" : "hidden"}>
         <div className="bg-white block w-full h-full z-10 absolute top-0 left-0">
           <div
-            className="absolute top-0 right-0 px-8 py-8"
+            className="absolute top-0 right-0 px-8 py-5 bg-white"
             onClick={() => setIsOpen(false)}
           >
             <svg
@@ -38,7 +38,7 @@ function Menu() {
               <line x1="6" y1="6" x2="18" y2="18" />
             </svg>
           </div>
-          <div className="flex flex-col mt-16 m-2 gap-2">
+          <div className="flex flex-col mt-16 gap-2 bg-white p-2">
             <Link
               to={"/"}
               className="text-black bg-azure rounded-md p-3 text-center hover:bg-rose font-bold"
