@@ -40,8 +40,6 @@ function Home() {
             Projects
           </Link>
         </div>
-        {/* <nav className="flex justify-around gap-1 md:justify-end p-1 md:hidden"></nav> */}
-        <ProjectShowcase />
       </main>
     </>
   );
