@@ -65,14 +65,16 @@ function ProjectCard({
           Hosted Site
         </a>
       ) : null}
-      <div className="self-center">
-        <a
-          href={github}
-          className="font-extrabold text-azure border-solid border-4 border-azure p-1 rounded-md text-center"
-        >
-          Source Code
-        </a>
-      </div>
+      {github ? (
+        <div className="self-center">
+          <a
+            href={github}
+            className="font-extrabold text-azure border-solid border-4 border-azure p-1 rounded-md text-center"
+          >
+            Source Code
+          </a>
+        </div>
+      ) : null}
     </section>
   );
 }

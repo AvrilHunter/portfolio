@@ -1,29 +1,9 @@
-import insta from "../assets/insta.svg";
-
 function AboutMe() {
   return (
     <section>
       <h1 className="text-2xl text-white rounded-md bg-rose p-1 w-full">
         About Me
       </h1>
-      {/* <p>
-        Since completing the Northcoders bootcamp I have been continuing my
-        learning journey with many practice katas and projects exploring new
-        technology.
-      </p>
-      <br></br>
-      <p>
-        It has been very satisfying to learning new languages such as python and
-        exploring more detail on existing topics such as animations with CSS.
-      </p>
-      <br></br>
-      <p>
-        I enjoy the logical and technical nature of backend projects and find
-        the ability to make front end interactive, user friendly apps extremely
-        rewarding. Therefore I am actively looking for opportunities within
-        backend front end or full stack.
-      </p> */}
-      {/* <h2 className="text-xl bg-amber text-black rounded-md p-1">Hobbies</h2> */}
       <p>
         Outside of work I love all sports including Ultimate Frisbee, surfing and weightlifting.
       </p>

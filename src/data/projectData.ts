@@ -1,6 +1,6 @@
 export type Project = {
   title: string;
-  github: string;
+  github?: string;
   summary: string[];
   skills: string[];
   demo?: string;
@@ -9,6 +9,28 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  {
+    title: "Functional Automation Tester",
+    summary: ["Creation of test scripts prioritising clear understandable Gherkins within Behaviour Driven Development.",
+      "I code UI test scripts replicating a user journey through a website using Selenium WebDriver. Also responsible for monitoring test scripts for API testing including required requests, authorisation and response validation.",
+    ],
+    image: require(""),
+    skills: ["Java", "Selenium Webdriver", "Cucumber", "Rest Assured", "BDD"],
+  },
+  {
+    title: "Cloud Computing and Infrastructure as Code",
+    summary: [
+      "Terraform code to create AWS resources including VPC's, subnets, route tables, internet gateways, EC2 instances, RDS databases and S3 buckets.",
+      "This experience allowed me to gain the Terraform Associates certification consolidating my knowledge of Infrastructure as Code principles, state, providers, security of secrets and the Terraform workflow.",
+    ],
+    image: require(""),
+    skills: [
+      "Terraform",
+      "Infrastructure as Code principles",
+      "AWS resources",
+      "Cloud Computing",
+    ],
+  },
   {
     title: "Portfolio Website",
     github: "https://github.com/AvrilHunter/portfolio",
