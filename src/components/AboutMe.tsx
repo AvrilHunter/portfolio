@@ -6,7 +6,7 @@ function AboutMe() {
       <h1 className="text-2xl text-white rounded-md bg-rose p-1 w-full">
         About Me
       </h1>
-      <p>
+      {/* <p>
         Since completing the Northcoders bootcamp I have been continuing my
         learning journey with many practice katas and projects exploring new
         technology.
@@ -22,25 +22,25 @@ function AboutMe() {
         the ability to make front end interactive, user friendly apps extremely
         rewarding. Therefore I am actively looking for opportunities within
         backend front end or full stack.
-      </p>
-      <h2 className="text-xl bg-amber text-black rounded-md p-1">Hobbies</h2>
+      </p> */}
+      {/* <h2 className="text-xl bg-amber text-black rounded-md p-1">Hobbies</h2> */}
       <p>
-        Aside from coding I love all sports but have focused on Ultimate Frisbee
-        since I started playing at University.
+        Outside of work I love all sports including Ultimate Frisbee, surfing and weightlifting.
       </p>
       <br></br>
+  
       <p>
-        I have competed for Great Britain at several European and World Ultimate
+        My main sport has been Ultimate Frisbee since I was introduced to this at University. I have competed for Great Britain at several European and World Ultimate
         Frisbee Championships since 2016; the highlight of my playing career was
         winning Silver at European Championships 2023 competing with Great
         Britain Women.
       </p>
       <br></br>
-      <p>Currently I'm training for World Championships 2024.</p>
+      <p>In 2024 I competed at World Championships in Australia, it was an incredible opportunity to match up against the best women in the world and we placed 12th.</p>
       <br></br>
       <p>
-        The final from 2023 is linked here and a highlight play video of our
-        season!
+      Please have a watch of the final from 2023 and a highlight play video of our
+        season to see what a fun sport it is!
       </p>
       <div className="flex flex-wrap justify-center">
         <iframe
@@ -66,20 +66,6 @@ function AboutMe() {
           className="p-2"
         ></iframe>
       </div>
-      <a
-        href="https://www.instagram.com/gbwomenultimate/"
-        target="_blank"
-        className="flex justify-center"
-      >
-        <p>Click here to follow our journey: </p>
-        <img
-          src={insta}
-          width="50"
-          height="50"
-          alt="Insagram link to GB Women's Account"
-          className="pl-2"
-        />
-      </a>
     </section>
   );
 }

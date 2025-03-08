@@ -5,8 +5,8 @@ function Contact() {
         Contact Me
       </h1>
       <p className="self-center">
-        Please don't hesitate to contact me if you have any questions,
-        opportunities or collaborations.
+        Please don't hesitate to contact me with any
+        opportunities or collaboration suggestions.
       </p>
       <a
         href="mailto:avrilhunter15@gmail.com"
@@ -20,14 +20,14 @@ function Contact() {
         target={"_blank"}
         className="bg-orange text-black p-1 mt-1 mb-1 rounded-md text-center"
       >
-        Reach out on LinkedIn
+        LinkedIn Profile
       </a>
       <a
         href={"https://github.com/AvrilHunter/"}
         target={"_blank"}
         className="bg-orange text-black p-1 mt-1 mb-1 rounded-md  text-center"
       >
-        Find my code on GitHub
+        GitHub
       </a>
     </section>
   );
